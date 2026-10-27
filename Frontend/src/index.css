@@ -1,0 +1,58 @@
+@import "tailwindcss";
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap'); */
+
+/* Global Reset */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Social Icon Hover */
+.icon-hover {
+  transition: all 0.3s ease;
+}
+
+.icon-hover:hover {
+  color: #FB2C36 !important;
+  transform: scale(1.2);
+  opacity: 1 !important;
+}
+
+/* Sticky Footer Setup */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  margin-top: auto;
+}
+
+.anime-cart-btn {
+  background: #FB2C36;
+  color: white;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.anime-cart-btn:hover {
+  background: #e6252f; /* darker red-orange */
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(251, 44, 54, 0.3);
+}

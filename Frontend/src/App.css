@@ -1,0 +1,25 @@
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FB2C36 transparent;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 6px; 
+  height: 6px;
+}
+
+/* Hide up/down arrows */
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #FB2C36;
+  border-radius: 10px;
+}
